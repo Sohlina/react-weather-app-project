@@ -25,6 +25,7 @@
 
 .Weather h1 {
   color: #161d6f;
+  text-align: center;
 }
 
 .Weather .temperature {
@@ -47,7 +48,8 @@
   top: -32px;
 }
 
-.Weather .sunrise {
-  margin-top: 40px;
-  font-size: 14px;
+.Weather p {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
 }
