@@ -46,3 +46,8 @@
   position: relative;
   top: -32px;
 }
+
+.Weather .sunrise {
+  margin-top: 40px;
+  font-size: 14px;
+}
