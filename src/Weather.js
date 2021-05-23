@@ -56,7 +56,7 @@ return (
           <div className="col-3">
         <button 
           type="button" 
-          className="btn btn-dark w-100">Enter</button>
+          className="btn btn-dark w-100">Search  <i class="fas fa-search-location"></i></button>
       </div>
     </div>
   </form>
