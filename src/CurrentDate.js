@@ -41,7 +41,8 @@ export default function CurrentDate(props) {
   return (
     <div>
       <p className="CurrentDate">
-      {day} ⎜ {month} {date} ⎜ {hours}:{minutes}
+      <i class="far fa-calendar-alt"></i> {day}, {month} {date} <br /> <i class="far fa-clock"> </i> {" "}
+      {hours}:{minutes} 
       </p>
     </div>
   );

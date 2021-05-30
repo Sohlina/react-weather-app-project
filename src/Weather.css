@@ -1,36 +1,40 @@
 .Weather {
-  border: 1px solid #161d6f;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 .Weather form {
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.Weather button {
-  background-color: #161d6f;
+.Weather .btn {
+  background-color: transparent;
   color: white;
 }
 
-.Weather button:hover {
-  background-color: white;
-  color: #161d6f;
-  border-color: #161d6f;
+.Weather .btn:hover {
+  background-color: transparent;
+  border: 1px solid #be90aa;
+  color: #be90aa;
+}
+
+.Weather h1 {
+  color: #be90aa;
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: "Poiret One", cursive;
 }
 
 .Weather ul {
   list-style: none;
-  position: relative;
-  left: 100px;
-}
-
-.Weather h1 {
-  color: #161d6f;
-  text-align: center;
-  font-size: 60px;
-  font-weight: bold;
-  font-family: "Amatic SC", cursive;
+  text-align: left;
 }
 
 .Weather .temperature {

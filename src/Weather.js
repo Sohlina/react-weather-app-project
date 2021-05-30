@@ -56,13 +56,18 @@ return (
           onChange={handleCityInput} />
           </div>
           <div className="col-3">
-        <button 
-          type="button" 
-          className="btn btn-dark w-100">Search  <i className="fas fa-search-location"></i></button>
+        <input 
+          type="submit" 
+          value="Search"
+          className="btn btn-light w-100"
+       />  
       </div>
     </div>
   </form> 
   <CurrentWeatherInfo data={weatherData} /> 
+  <br />
+  <p> Weather forecast in {city}</p>
+  <hr />
   <WeatherForecast coordinates={weatherData.coordinates}/>
   </div>
 );
