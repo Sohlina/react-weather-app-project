@@ -4,6 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherUnit from "./WeatherUnit";
 
 
+
 export default function CurrentWeatherInfo(props) {
     return(
       <div className="CurrentWeatherInfo">
@@ -18,8 +19,8 @@ export default function CurrentWeatherInfo(props) {
                 alt={props.data.description}
                 size={60}
               />
-            </div>
-          <WeatherUnit celsius={props.data.temperature}/>
+          </div>
+        <WeatherUnit celsius={props.data.temperature}/>
         </div>
     <div className="col-5">
       <ul>

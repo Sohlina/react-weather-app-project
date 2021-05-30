@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">  
       <Weather defaultCity="Queenstown" />
       <footer>
-      This project is<a href="https://github.com/Sohlina/react-weather-app-project" target="_blank" rel="noreferrer"> Open-sourced on Github</a><small><a href="https://jovial-aryabhata-bbec83.netlify.app/" target="_blank" rel="noreferrer">and published on Netlify</a>. Coded by Alexandra Sohlin 👩🏽‍💻 </small>
+      This project is <a href="https://github.com/Sohlina/react-weather-app-project" target="_blank" rel="noreferrer"> Open-sourced on Github </a><a href="https://jovial-aryabhata-bbec83.netlify.app/" target="_blank" rel="noreferrer"></a>, coded by Alexandra Sohlin 👩🏽‍💻
     </footer>
     </div>
   </div>
