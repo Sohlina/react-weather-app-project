@@ -5,6 +5,7 @@
   min-height: 100%;
   position: fixed;
   background-size: cover;
+  background-position: bottom;
   font-family: "Montserrat", sans-serif;
 }
 
